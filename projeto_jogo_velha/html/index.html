@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Jogo da velha</title>
+        <meta charset="utf-8">
+        <meta name="author" content="Lucas">
+        <meta name="description" content="descrição">
+        <meta name="keywords" content="jogo velha">
+        <link href="../css/index.css" type="text/css" rel="stylesheet">
+    </head>
+    <body>
+        <header class="header">
+            <img id="avatar" src="..\imagens\avatar_eu.png" alt="asd">
+            <h1 class="titulo">Trabalhos e groselhas de um zé meio experto</h1> 
+            <section class="icones">
+                <a class="instagram" href="https://www.instagram.com/lucasdeister7/">
+                <img src="..\imagens\icons8-instagram-32.png" alt="instagram"></a>
+                <a class="email" href="mailto:lucasdeister7@hotmail.com">
+                <img src="..\imagens\icons8-mensagem-32.png" alt="email"></a>  
+            </section>
+            <section class="descricao">
+                <p>Design by Lucas Deister</p>
+            </section>
+        </header>
+        <main class="content">
+            <section class="tituloJogo">
+                <h2>Jogo da velha</h2>
+            </section>
+            <section class="tipoMarcacao">
+                <form>
+                    <label id="lblMarcacao">Marcação</label>
+                    <button type="button" class="tipoMarcacao" id="marcacaoX" onclick="escolhaX()">X</button>
+                    <button type="button" class="tipoMarcacao" id="marcacaoO" onclick="escolhaO()">O</button>
+                    <label id="lblInicio">Quem começa?</label>
+                    <select name="cmbMarcacao" id="cmbMarcacao">
+                        <option value="X">X</option>
+                        <option value="O">O</option>
+                        <option value="Alternado">Alternado</option>
+                        <option value="Aleatorio">Aleatório</option>
+                    </select>
+                    <button id="btnJogar" type="button" onclick="jogar()">Jogar</button>  
+                </form>
+            </section>
+            <section class="jogo">
+                <a class="marcacao" id="marcacao1" onclick="preencherEspaco(1, tipoMarcacao)"></a>
+                <a class="marcacao" id="marcacao2" onclick="preencherEspaco(2, tipoMarcacao)"></a>
+                <a class="marcacao" id="marcacao3" onclick="preencherEspaco(3, tipoMarcacao)"></a>
+                <a class="marcacao" id="marcacao4" onclick="preencherEspaco(4, tipoMarcacao)"></a>
+                <a class="marcacao" id="marcacao5" onclick="preencherEspaco(5, tipoMarcacao)"></a>
+                <a class="marcacao" id="marcacao6" onclick="preencherEspaco(6, tipoMarcacao)"></a>
+                <a class="marcacao" id="marcacao7" onclick="preencherEspaco(7, tipoMarcacao)"></a>
+                <a class="marcacao" id="marcacao8" onclick="preencherEspaco(8, tipoMarcacao)"></a>
+                <a class="marcacao" id="marcacao9" onclick="preencherEspaco(9, tipoMarcacao)"></a>
+                <div class="linhaVertical" id="linhaVerticalX"></div>
+                <div class="linhaVertical" id="linhaVerticalY"></div>
+                <div class="linhaHorizontal" id="linhaHorizontalX"></div>
+                <div class="linhaHorizontal" id="linhaHorizontalY"></div>
+            </section>   
+        </main>
+        <script type="text/javascript" src="../javascript/index.js"></script>
+    </body>
+</html>
+
+
+
+
+    
+
+
+
+
+
+

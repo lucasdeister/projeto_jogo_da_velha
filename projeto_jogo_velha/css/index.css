@@ -1,0 +1,220 @@
+html{
+    font-family:'Lucida Sans';
+    margin: 0;
+    padding: 0;
+}
+
+body{
+        background-image: url("../imagens/bg.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 500px 970px;
+}
+
+.content{
+    margin-left: 550px;
+    margin-top: -900px;
+}
+
+.content h2{
+    color: rgb(161, 64, 64);
+    font-size: 30px;
+    padding-bottom: 50px;
+}
+
+#avatar{
+    margin-top: 170px;
+    margin-left: 195px;
+    width: 105px;
+    height: 140px;
+    border-radius: 50%;
+    filter: brightness(100%);
+    filter: saturate(1.5);
+}
+
+.titulo{
+    color: rgb(145, 129, 129);
+    font-size: 20px;
+    margin-left: 120px;
+    line-height: 1.7;
+    max-width: 250px;
+    text-align: center;
+}
+
+
+.icones{
+    margin-left: 200px;
+    margin-top: 450px;
+    filter:invert(60%);
+    max-width: 70px;
+    max-height: 40px;
+    opacity: 0.1px;
+}
+
+.instagram:hover{
+    border-bottom: 1px dashed white;
+}
+
+.email:hover{
+    border-bottom: 1px dashed white;
+}
+
+.descricao{
+    display: inline-block;
+    color: white;
+    font-size: 11.5px;
+    margin-left: 195px;
+    margin-top: 20px;
+    text-align: center;
+    max-width: 80px;
+    filter: brightness(70%);
+}
+
+
+.linhaVertical{
+    position: absolute;
+    border-left: 3px solid darkgray;
+    height: 300px;
+    top: 350px;
+}
+
+#linhaVerticalX{
+    left: 870px;
+}
+
+#linhaVerticalY{
+    left: 980px;
+}
+
+
+.linhaHorizontal{
+    position: absolute;
+    border-top: 3px solid darkgray;
+    width: 330px;
+    left: 760px;
+}
+
+#linhaHorizontalX{
+    top: 450px;
+}
+
+
+#linhaHorizontalY{
+    top: 550px;
+}
+
+
+
+.marcacao{
+    position: absolute;
+}
+
+#marcacao1{
+    top: 350px;
+    left: 760px;
+}
+
+#marcacao2{
+    top: 350px;
+    left: 870px;
+}
+
+#marcacao3{
+    top: 350px;
+    left: 980px;
+}
+
+#marcacao4{
+    top: 451px;
+    left: 760px;
+}
+
+#marcacao5{
+    top: 451px;
+    left: 870px;
+}
+
+#marcacao6{
+    top: 451px;
+    left: 980px;
+}
+
+#marcacao7{
+    top: 551px;
+    left: 760px;
+}
+
+#marcacao8{
+    top: 551px;
+    left: 870px;
+}
+
+#marcacao9{
+    top: 551px;
+    left: 980px;
+}
+
+.marcacao{
+    padding-left: 70px;
+    padding-top: 35px;
+    padding-bottom: 64px;
+    padding-right: 40px;
+
+}
+
+a:hover{
+    cursor:default;
+}
+
+#marcacaoX{
+    font-size: 40px;
+}
+
+#marcacaoO{
+    font-size: 40px;
+}
+
+#marcacaoX:hover{
+    cursor: pointer;
+}
+
+#marcacaoO:hover{
+    cursor: pointer;
+}
+
+.tipoMarcacao{
+    margin-left: 20px;
+}
+
+label{
+    font-size: 30px;
+}
+
+#lblInicio{
+    margin-left: 50px;
+}
+
+#cmbMarcacao{
+    margin-left: 20px;
+    text-align: center;
+    font-size: 25px;
+    width: 160px;
+    height: 50px;
+}
+
+
+
+#btnJogar{
+    margin-left: 20px;
+    color: #fff;
+    background-color: #218b3a;
+    border-color: #218b3a;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 120px;
+    height: 45px;
+  }
+
+  #btnJogar:hover:enabled{
+    background-color: #196b2c !important;
+  }
